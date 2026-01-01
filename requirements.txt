@@ -1,0 +1,25 @@
+# Основные зависимости для VoxPersonal v6 на macOS
+speechrecognition==3.10.0
+pyttsx3==2.90
+pyautogui==0.9.54
+requests==2.31.0
+
+# Для микрофона на macOS
+# PyAudio может быть сложно установить на macOS, используем альтернативу
+# Если нужен PyAudio:
+# pip install PyAudio
+# ИЛИ установите через brew:
+# brew install portaudio
+# pip install pyaudio
+
+# Альтернативы PyAudio для macOS:
+# sounddevice
+# pysoundcard
+
+# GUI зависимости (уже установлены с Python на macOS)
+# tkinter
+
+# Для дополнительных функций
+# psutil==5.9.5
+# pyyaml==6.0.1
+# numpy==1.24.3
